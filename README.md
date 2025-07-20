@@ -21,4 +21,4 @@ A web-based navigation tool that calculates the shortest path between Indian cit
 
 ### 📐 Algorithm
 - Dijkstra’s Shortest Path Algorithm (Implemented in backend)
-![Map View]()
+![Map View](https://github.com/divyanshiupreti11/Indian-Map-Navigator/blob/main/Screenshot%202025-07-20%20140341.png?raw=true)
