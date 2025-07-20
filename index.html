@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Map Navigator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Indian Map <span class="highlight">Navigator</span></h1>
+    <div class="map-wrapper" id="map"></div>
+    <div class="info">
+      <p id="startCity">Start: <span class="rose">Not selected</span></p>
+      <p id="endCity">End: <span class="rose">Not selected</span></p>
+      <div class="buttons">
+        <button id="findRouteBtn">Find Route</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
